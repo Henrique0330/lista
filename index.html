@@ -4,17 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Lista de Tarefas</h1>
-    <input id="texto" type="text">
-    <ul id="Lista">
-        
-    </ul>
-    <button onclick="adicionar()">Adicionar</button>
+    <h2>Tarefas Pendentes</h2>
+
+    <div class="container">
+        <input type="text" id="Resultado"> <button id="adicionar-tarefa"><span>&#10003;</span></button>
+        <h1>Tarefas incompletas:</h1>
+
+    </div>
+
+    <div class="terminando" id="tarefasA">
+
+    </div>
+    <hr>
+    <h1>Tarefas Finalizadas:</h1>
+    <input id="limpar" type="button" value="limpar"></input>
+    <div class="tarefasB" id="TCompletas">
+        <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
